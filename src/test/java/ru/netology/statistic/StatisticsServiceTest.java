@@ -16,6 +16,7 @@ public class StatisticsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     void findMin() {
         StatisticsService service = new StatisticsService();
